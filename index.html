@@ -7,21 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="page-header">
-      <h1 class="page-header__title">Wedding Ceremony</h1>
-      <img
-        srcset="
-          ./images/wedding-2-640.jpg   640w,
-          ./images/wedding-2-1280.jpg 1280w,
-          ./images/wedding-2-1920.jpg 1920w
-        "
-        sizes="(max-width: 640px) 640px, (max-width: 1280px) 1280px, 1920px"
-        src="./images/wedding-2-1280.jpg"
-        class="page-header__image"
-      />
-    </header>
-
-    <section class="about-me">
+    <div class="header-container">
+      <header class="page-header container">
+        <img
+          srcset="
+            ./images/wedding-2-640.jpg   640w,
+            ./images/wedding-2-1280.jpg 1280w,
+            ./images/wedding-2-1920.jpg 1920w
+          "
+          sizes="(max-width: 640px) 640px, (max-width: 1280px) 1280px, 1920px"
+          src="./images/wedding-2-1280.jpg"
+          class="page-header__image"
+        />
+        <h1 class="page-header__title">Wedding Ceremony</h1>
+      </header>
+    </div>
+    <section class="about-me container">
       <h2>About me</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
