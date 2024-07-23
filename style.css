@@ -123,3 +123,38 @@ section p {
 .contact-me a {
   color: #fafafa;
 }
+
+@media (min-width: 800px) {
+  .page-header {
+    display: block;
+  }
+
+  .page-header__image {
+    float: left;
+    z-index: 2;
+    max-width: 300px;
+    margin-top: -1rem;
+    margin-right: 1rem;
+  }
+
+  .page-header__title {
+    z-index: 3;
+  }
+
+  .about-me {
+    background-color: #fafafa;
+    padding: 4rem 2rem;
+  }
+
+  .footer {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .contact-me__links {
+    justify-content: start;
+  }
+}
