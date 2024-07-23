@@ -184,11 +184,13 @@
     </section>
 
     <footer class="footer">
-      <section class="contact-me">
+      <section class="contact-me container">
         <h2>Contact me</h2>
-        <p></p>
+        <p>
+          Please get in touch if you think our work could be mutually beneficial
+        </p>
 
-        <address>
+        <address class="contact-me__address">
           <p>1234 Random Road</p>
           <p>Random Town, California, 12345</p>
           <a href="tel:+555 555 555">+555 555 555</a>
@@ -228,6 +230,21 @@
           </li>
         </ul>
       </section>
+
+      <picture class="footer__image">
+        <source
+          srcset="./images/wedding-1920w-cropped.jpg"
+          media="(max-width: 1199px)"
+        />
+        <source
+          srcset="./images/wedding-1920w.jpg"
+          media="(max-width: 1200px)"
+        />
+        <img
+          src="./images/wedding-1920w.jpg"
+          alt="two people with indian wedding dress in a wedding"
+        />
+      </picture>
     </footer>
   </body>
 </html>

@@ -50,7 +50,8 @@ section p {
   margin-bottom: 1rem;
 }
 
-.about-me__links {
+.about-me__links,
+.contact-me__links {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -58,7 +59,8 @@ section p {
   justify-content: center;
 }
 
-.about-me__links__link {
+.about-me__links__link,
+.contact-me__links__link {
   filter: grayscale(100%) contrast(300%);
 }
 
@@ -98,4 +100,26 @@ section p {
 .projects__project__description {
   padding: 2rem;
   padding-bottom: 3rem;
+}
+
+.footer {
+  background-color: #92202f;
+  color: #fafafa;
+}
+
+.contact-me {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.contact-me__address {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-me a {
+  color: #fafafa;
 }
